@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+
+  <div class="bgm">
+  
+    <div class="form">
+  
+      <!-- <div class="btn">
+          <div id="btn"></div>
+          <button type="button" class="btn-toggle">Login</button>
+          <button type="button" class="btn-toggle"><a href="/register">Register</a></button>
+      </div> -->
+  <h1>Register</h1>
+
+<form action="/register" method="post" class="input-box">
+<div>
+
+  <input  class="input" type="text" placeholder="Name" name="name" id="name" required>
+</div>
+<div>
+ 
+  <input  class="input" type="email" placeholder="Email" name="email" id="email" required>
+</div>
+<div>
+  
+  <input  class="input" type="password" placeholder="Password"name="password" id="password" required>
+</div>
+ <button class="submit" type="submit">Register</button>
+ <a href="/login">Login</a>
+</form>
+
+
+</body>
+
+
+
+
+
+
+<style>
+  *{
+    margin: 0;
+   font-family: sans-serif;
+   
+  }
+  
+  .bgm{
+    height:100%;
+    width: 100%;
+      background-image:url("https://th.bing.com/th/id/R.d102d96c592bf1d6dd42e606a70a789a?rik=VuvShRDLGudhqw&riu=http%3a%2f%2fhdwpro.com%2fwp-content%2fuploads%2f2019%2f02%2famazing-4K-Nature-image.jpg&ehk=bLZBXIzua1LlcYARhcKpluJ3mruhx6DRAogutkSIWG8%3d&risl=&pid=ImgRaw&r=0");
+     
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+  
+    
+  }
+  .form{
+    width:380px;
+    height:400px;
+    position: relative;
+    margin:6% auto;
+    background: #fff ;
+    padding:5px;
+    border-radius:20px;
+    padding-top:15px;
+    
+  }
+  
+  h1{
+    text-align:center;
+    padding-top: 30px;
+    margin-top:20px;
+    font-size:1.8em;
+    color:#29b7cc;
+    
+   
+   
+  }
+  
+  a{
+    text-decoration:none;
+   position: absolute;
+  margin-top:35px;
+   margin-left: -35px;
+   color: #000;
+  
+   
+  }
+  .input-box{
+    top: 140px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+    margin: -10px 15%;
+  }
+  
+  .input{
+    width: 100%;
+    padding:10px 0;
+    margin:5px 0;
+    border:0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background:transparent;
+  }
+  
+  .submit{
+    width:85%;
+    padding:10px 30px;
+  
+    cursor: pointer;
+    display: block;
+    margin:auto;
+    background:linear-gradient(to right,#52E5E7,#43CBFF);
+    border:0;
+    outline: none;
+    border-radius: 30px;
+  }
+  
+  
+  </style>
+</html>
